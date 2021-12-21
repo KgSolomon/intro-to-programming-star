@@ -1,19 +1,88 @@
-Denis Ivanov
+<!DOCTYPE html>
 
-About
-Hi, I'm Denis, I recently started studying web development.
+<html>
+    <head>
+        <title>Personal Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0" >
+        <meta name="author" content="Denis Ivanov">
+        <link rel="stylesheet" href="css/index.css" />
+    </head>
+
+    <body>
+
+        <header class='header sticky content'>
+            <h1 class='name'><a href='#'>Denis Ivanov</a></h1>
+                <ul class="main-nav">
+                  <li class="menu__item">
+                    <a class='menu__text' href="#about">About</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class='menu__text' href="#skills">Skills</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class='menu__text' href="#experience">Experience</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class='menu__text' href="#projects">Projects</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class='menu__text' href="#messages">Contact</a>
+                  </li>
+                </ul>
+          </header>
+
+        <section id='about'>
+            <h2>About</h2>
+            <p>Hi, my name is Denis, I have recently started studying web development and <br> am looking forward to learning new skills.</p>
+
+        </section>
+
+        <section id='experience'>
+            <h2>Expirience</h2>
+            <p>I had some previous experience with the programming language "Ruby" and <br> recently took an Intro to Programming course. </p>
+            <!-- <img src="img/logo.png" alt="HTML, CSS and JavaScript logos."
+                 width="300"
+                 height="110"> -->
+        </section>
+
+        <section id='skills'>
+            <h2>Skills</h2>
+            <ul class='tag'></ul>
+        </section>
+
+        <section id='projects'>
+            <h2>Projects</h2>
+            <ul class='project_class'></ul>
+        </section>
+
+        <section class='message'>
+            <h2>Leave a Message</h2>
+            <form class='form' name='leave_message'>
+                <label> Name</label> <br>
+                <input  type='text' name='name' required='true'> <br>
+                <label> Email Address</label> <br>
+                <input  type='email' name='email' required='true'> <br>
+                <label> Message</label> <br>
+                <textarea name='message' required='true'> </textarea> <br>
+                <button class='button' type='submit'>Submit</button><br>
+            </form>
+        </section>
+
+        <section class='history' id='messages'>
+            <h2>Messages</h2>
+            <ul></ul>
+        </section>
+
+        <footer class='footer'>
+            <ul class='contact'>
+                <li><a href="https://github.com/KgSolomon"><img src="GitHub-Mark-32px.png"></a></li>
+                <li><a href=mailto:gramoturgip@gmail.com><img src="free-mail-icon-142-thumb.png" width="50" height="50"></a>></li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js" > </script>
+    </body>
 
 
-
-
-
-Expirience
-I know basics of HTML, CSS and JavaScript.
-
-
-
-
-Contact:
-https://github.com/KgSolomon
-gramoturgip@gmail.com
-
+</html>
